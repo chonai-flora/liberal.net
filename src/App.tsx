@@ -1,7 +1,6 @@
 import './App.css';
 import { Helmet } from "react-helmet";
-import { Container, Row, Col } from "react-bootstrap";
-import { HashRouter as Router, Routes, Route, Link } from 'react-router-dom';
+import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 import { AppBar, Toolbar, Typography } from "@material-ui/core";
 import Home from "./components/Home";
 import About from "./components/About";
@@ -13,7 +12,7 @@ const App = () => {
     <>
       <Helmet>
         <title>ご飯だよ！全員集合！</title>
-        <meta name="description" content="いろいろ置く" />
+        <meta name="description" content="リベラルアーツ" />
       </Helmet>
       <header>
         <AppBar position="relative">
